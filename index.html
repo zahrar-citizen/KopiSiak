@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- SEO on-page: title ±60 karakter, meta description ±155 karakter -->
+<title>Kopi Siak | Cold Brew Botol Segar, Diantar di Pekanbaru</title>
+<meta name="description" content="Cold brew dari biji kopi Sumatra, diseduh 18 jam dan diantar dingin ke rumah atau kampus di Pekanbaru. Hitung paketmu dan pesan lewat WhatsApp.">
+<meta name="theme-color" content="#10283B">
+<meta property="og:title" content="Kopi Siak | Cold Brew Botol Segar">
+<meta property="og:description" content="Cold brew 18 jam, diantar dingin di Pekanbaru.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Kopi Siak","description":"Cold brew botol segar di Pekanbaru","areaServed":"Pekanbaru","telephone":"+6281234567890"}
+</script>
+<!-- Google tag (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FHGHD59S2D"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-FHGHD59S2D');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#10283B;--sea:#0F766E;--sun:#FFB400;--mist:#EEF4F7;--white:#fff;--muted:#4A5E6D;--r:20px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:var(--ink);line-height:1.65;font-size:1.0625rem;padding-bottom:70px}
+@media(min-width:800px){body{padding-bottom:0}}
+svg{max-width:100%;display:block}a{color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+section{padding:clamp(3rem,7vw,5.5rem) 0}
+h1,h2,h3{line-height:1.12;letter-spacing:-.02em}
+h1{font-size:clamp(2.4rem,6.4vw,4.3rem);font-weight:800}
+h2{font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:800;margin-bottom:.8rem}
+h3{font-size:1.15rem;font-weight:700;margin-bottom:.35rem}
+.lead{font-size:1.15rem;color:var(--muted);max-width:52ch}
+.btn{display:inline-block;background:var(--sun);color:var(--ink);font:inherit;font-weight:800;text-decoration:none;padding:.95rem 1.7rem;border-radius:999px;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(255,180,0,.45)}
+.btn.ghost{background:transparent;border:2px solid currentColor;color:inherit}
+
+/* progress scroll + promo bar */
+#bar{position:fixed;top:0;left:0;height:4px;background:var(--sun);width:0;z-index:50}
+.promo{background:var(--sun);text-align:center;font-weight:700;font-size:.95rem;padding:.55rem 1rem}
+.promo b{font-variant-numeric:tabular-nums}
+
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid #dde7ec}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 0}
+.logo{font-weight:800;font-size:1.25rem;text-decoration:none;display:flex;align-items:center;gap:.5rem}
+.logo i{width:14px;height:14px;border-radius:50%;background:var(--sun)}
+.nav ul{display:none;list-style:none;gap:1.6rem}.nav ul a{text-decoration:none;font-weight:500}
+.nav .btn{padding:.6rem 1.2rem;font-size:.95rem}
+@media(min-width:800px){.nav ul{display:flex}}
+
+/* hero */
+.hero{background:var(--ink);color:var(--white);overflow:hidden;padding-bottom:0}
+.hero .wrap{display:grid;gap:2rem;align-items:center}
+@media(min-width:860px){.hero .wrap{grid-template-columns:1.1fr .9fr}}
+.hero .lead{color:#C4D4DF;margin:1.2rem 0 2rem}
+.row{display:flex;flex-wrap:wrap;gap:1rem;align-items:center}
+.hero small{display:block;margin-top:1.2rem;color:#9FB6C5}
+.art{position:relative;display:grid;place-items:center;min-height:380px}
+.art::before{content:"";position:absolute;width:min(390px,82vw);aspect-ratio:1;border-radius:50%;background:var(--sea)}
+.art svg.b{position:relative;width:min(240px,58vw);filter:drop-shadow(0 18px 24px rgba(0,0,0,.4));animation:float 5s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-12px)}}
+.chip{position:absolute;background:var(--white);color:var(--ink);font-weight:700;font-size:.85rem;padding:.45rem .9rem;border-radius:999px;box-shadow:0 8px 20px rgba(0,0,0,.25)}
+.c1{top:12%;left:2%}.c2{bottom:22%;right:0}.c3{bottom:6%;left:8%}
+
+/* marquee */
+.mq{background:var(--sun);overflow:hidden;white-space:nowrap;padding:.8rem 0;font-weight:800}
+.mq div{display:inline-block;animation:mq 28s linear infinite}
+@keyframes mq{to{transform:translateX(-50%)}}
+.mq span{margin:0 1.4rem}
+
+/* statistik */
+.stats{background:var(--mist);padding:2.4rem 0}
+.stats ul{list-style:none;display:grid;gap:1.4rem;text-align:center}
+@media(min-width:700px){.stats ul{grid-template-columns:repeat(4,1fr)}}
+.stats strong{display:block;font-size:2.2rem;font-weight:800;color:var(--sea)}
+.stats span{color:var(--muted);font-size:.95rem}
+
+.grid3{display:grid;gap:1.2rem;margin-top:2rem}
+@media(min-width:760px){.grid3{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--mist);border-radius:var(--r);padding:1.8rem;transition:transform .2s}
+.card:hover{transform:translateY(-4px)}
+.card:nth-child(2){background:var(--sea);color:var(--white)}
+.card:nth-child(2) p{color:#D7F0ED}.card p{color:var(--muted)}
+.ico{width:46px;height:46px;border-radius:13px;background:var(--sun);display:grid;place-items:center;font-size:1.4rem;margin-bottom:1rem}
+
+/* menu rasa */
+.menu{background:var(--mist)}
+.menu .card{background:var(--white);display:flex;flex-direction:column;gap:.4rem;border:2px solid transparent}
+.menu .card:nth-child(2){background:var(--white);color:inherit;border-color:var(--sun)}
+.menu .card:nth-child(2) p{color:var(--muted)}
+.price{font-size:1.6rem;font-weight:800;margin-top:auto}
+.tag{align-self:flex-start;background:var(--sun);font-size:.8rem;font-weight:800;padding:.2rem .7rem;border-radius:999px}
+
+/* langkah */
+.steps{list-style:none;counter-reset:s;display:grid;gap:1.4rem;margin-top:2rem}
+@media(min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}}
+.steps li{counter-increment:s;padding-left:3.4rem;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:2.4rem;height:2.4rem;border-radius:50%;background:var(--ink);color:var(--white);display:grid;place-items:center;font-weight:800}
+.steps p{color:var(--muted)}
+
+.quotes{background:var(--ink);color:var(--white)}
+blockquote{background:rgba(255,255,255,.07);border-radius:var(--r);padding:1.6rem}
+cite{display:block;margin-top:.9rem;font-style:normal;color:var(--sun);font-weight:700;font-size:.95rem}
+
+details{border-bottom:1px solid #dde7ec;padding:1rem 0}
+summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+summary::after{content:"+";font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"–"}
+details p{margin-top:.6rem;color:var(--muted)}
+
+/* order + kalkulator */
+.order{background:var(--sun)}
+.order .wrap{display:grid;gap:2rem}
+@media(min-width:900px){.order .wrap{grid-template-columns:1fr 1.1fr;align-items:center}}
+form{background:var(--white);border-radius:var(--r);padding:1.8rem;display:grid;gap:1rem;box-shadow:0 16px 36px rgba(16,40,59,.2)}
+label,.lb{font-weight:700;font-size:.95rem;display:grid;gap:.4rem}
+input[type=text],input[type=tel]{font:inherit;padding:.8rem 1rem;border:2px solid #cfdbe3;border-radius:12px;width:100%}
+input:focus{border-color:var(--sea);outline:none}
+.flav{display:flex;gap:.5rem;flex-wrap:wrap}
+.flav input{position:absolute;opacity:0}
+.flav span{display:inline-block;padding:.55rem 1rem;border:2px solid #cfdbe3;border-radius:999px;cursor:pointer;font-weight:700;font-size:.95rem}
+.flav input:checked+span{background:var(--ink);color:var(--white);border-color:var(--ink)}
+.flav input:focus-visible+span{outline:3px solid var(--sun);outline-offset:2px}
+.qty{display:flex;align-items:center;gap:1rem}
+.qty button{width:42px;height:42px;border-radius:50%;border:2px solid var(--ink);background:var(--white);font-size:1.3rem;font-weight:800;cursor:pointer}
+.qty output{min-width:2rem;text-align:center;font-size:1.3rem;font-weight:800}
+.total{background:var(--mist);border-radius:14px;padding:1rem 1.2rem;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.total strong{font-size:1.6rem}
+.total small{color:var(--sea);font-weight:700;display:block}
+form .btn{background:var(--ink);color:var(--white);width:100%}
+.note{font-size:.85rem;color:var(--muted)}
+footer{padding:2rem 0;text-align:center;color:var(--muted);font-size:.9rem}
+
+/* CTA melayang (HP) + tombol WA */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--ink);padding:.7rem 1rem;display:flex;gap:.7rem}
+.sticky .btn{flex:1;text-align:center;padding:.8rem}
+@media(min-width:800px){.sticky{display:none}}
+#toast{position:fixed;left:50%;bottom:90px;transform:translate(-50%,20px);background:var(--ink);color:var(--white);padding:.8rem 1.3rem;border-radius:999px;opacity:0;pointer-events:none;transition:.3s;z-index:60;font-weight:700}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<div class="promo">Promo perkenalan: diskon 10% untuk 3 botol. Berakhir dalam <b id="cd">--</b></div>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#"><i></i>Kopi Siak</a>
+    <ul><li><a href="#menu">Pilihan rasa</a></li><li><a href="#cara">Cara pesan</a></li><li><a href="#faq">Tanya jawab</a></li></ul>
+    <a class="btn" href="#pesan" data-track="klik_cta_nav">Pesan sekarang</a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Cold brew segar, diseduh 18 jam, diantar dingin ke pintumu.</h1>
+      <p class="lead">Biji kopi Sumatra pilihan, tanpa pemanis berlebih. Teman begadang tugas dan rapat pagi.</p>
+      <div class="row">
+        <a class="btn" href="#pesan" data-track="klik_cta_hero">Hitung paketmu</a>
+        <a class="btn ghost" href="#menu" data-track="klik_lihat_rasa">Lihat pilihan rasa</a>
+      </div>
+      <small>Antar area Pekanbaru, 1 hari setelah pemesanan.</small>
+    </div>
+    <div class="art" aria-hidden="true">
+      <svg class="b" viewBox="0 0 200 340">
+        <rect x="78" y="6" width="44" height="34" rx="8" fill="#10283B" stroke="#fff" stroke-width="4"/>
+        <path d="M70 40h60l22 40v220a30 30 0 0 1-30 30H78a30 30 0 0 1-30-30V80z" fill="#3B2314"/>
+        <path d="M60 120h80v110H60z" fill="#FFB400"/>
+        <text x="100" y="170" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="22" fill="#10283B">KOPI</text>
+        <text x="100" y="198" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="22" fill="#10283B">SIAK</text>
+        <text x="100" y="262" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#FFE2A0">cold brew 250 ml</text>
+      </svg>
+      <span class="chip c1">Dingin 4°C</span><span class="chip c2">Tanpa pengawet</span><span class="chip c3">Gratis antar ≥ 3 botol</span>
+    </div>
+  </div>
+</section>
+
+<div class="mq" aria-hidden="true"><div>
+  <span>Seduh 18 jam</span><span>Biji Sumatra</span><span>Tanpa pengawet</span><span>Antar Pekanbaru</span><span>Harga mahasiswa</span>
+  <span>Seduh 18 jam</span><span>Biji Sumatra</span><span>Tanpa pengawet</span><span>Antar Pekanbaru</span><span>Harga mahasiswa</span>
+</div></div>
+
+<div class="stats">
+  <ul class="wrap">
+    <li><strong data-n="1200" data-s="+">0</strong><span>botol terjual</span></li>
+    <li><strong data-n="18" data-s=" jam">0</strong><span>waktu seduh dingin</span></li>
+    <li><strong data-n="4.9" data-s="/5" data-d="1">0</strong><span>rating pelanggan (contoh)</span></li>
+    <li><strong data-n="5" data-s=" hari">0</strong><span>tahan di kulkas</span></li>
+  </ul>
+</div>
+
+<section id="manfaat">
+  <div class="wrap">
+    <h2>Kenapa pilih Kopi Siak</h2>
+    <p class="lead">Tiga alasan yang paling sering disebut pelanggan.</p>
+    <div class="grid3">
+      <article class="card"><div class="ico">☕</div><h3>Rasa halus, tidak pahit</h3><p>Seduh dingin menurunkan keasaman, jadi nyaman di perut.</p></article>
+      <article class="card"><div class="ico">🚚</div><h3>Antar langsung</h3><p>Pesan lewat WhatsApp, kopi tiba dingin di rumah atau kampus.</p></article>
+      <article class="card"><div class="ico">💸</div><h3>Harga mahasiswa</h3><p>Makin banyak botol, makin hemat. Bisa patungan dengan teman.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="wrap">
+    <h2>Pilih rasa favoritmu</h2>
+    <div class="grid3">
+      <article class="card"><h3>Original</h3><p>Kopi murni, bersih dan segar.</p><div class="price">Rp18.000</div></article>
+      <article class="card"><span class="tag">Paling laris</span><h3>Gula Aren</h3><p>Manis alami, favorit anak kampus.</p><div class="price">Rp20.000</div></article>
+      <article class="card"><h3>Susu</h3><p>Creamy dengan susu segar.</p><div class="price">Rp22.000</div></article>
+    </div>
+  </div>
+</section>
+
+<section id="cara">
+  <div class="wrap">
+    <h2>Pesan dalam 3 langkah</h2>
+    <ol class="steps">
+      <li><h3>Atur pesananmu</h3><p>Pilih rasa dan jumlah, total langsung terhitung.</p></li>
+      <li><h3>Konfirmasi di WhatsApp</h3><p>Kami balas dengan jadwal antar.</p></li>
+      <li><h3>Terima dan nikmati</h3><p>Bayar saat tiba atau transfer sebelumnya.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="quotes">
+  <div class="wrap">
+    <h2>Kata pelanggan</h2>
+    <div class="grid3">
+      <blockquote>Tidak pahit sama sekali. Sekarang jadi langganan tiap minggu ujian.<cite>Rani, mahasiswa</cite></blockquote>
+      <blockquote>Pesan sore, besok pagi sudah sampai kantor. Praktis untuk rapat.<cite>Dimas, karyawan</cite></blockquote>
+      <blockquote>Paket 3 botol cukup untuk patungan satu kelompok.<cite>Salsa, mahasiswa</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap" style="max-width:760px">
+    <h2>Pertanyaan yang sering muncul</h2>
+    <details><summary>Berapa lama kopi bisa disimpan?</summary><p>Simpan di kulkas, tahan sampai 5 hari. Kocok pelan sebelum diminum.</p></details>
+    <details><summary>Apakah bisa antar ke luar Pekanbaru?</summary><p>Saat ini baru area Pekanbaru. Tanyakan lewat WhatsApp untuk kemungkinan lain.</p></details>
+    <details><summary>Apakah ada pilihan tanpa gula?</summary><p>Rasa Original tanpa gula tambahan. Gula cair tersedia sebagai sachet terpisah.</p></details>
+  </div>
+</section>
+
+<section class="order" id="pesan">
+  <div class="wrap">
+    <div>
+      <h2>Atur pesananmu, kami siapkan.</h2>
+      <p class="lead" style="color:var(--ink)">Pilih rasa dan jumlah, lihat harga langsung, lalu lanjutkan di WhatsApp. Tidak ada biaya sebelum kopi tiba.</p>
+    </div>
+    <form id="f">
+      <label>Nama<input type="text" name="nama" required autocomplete="name" placeholder="Nama kamu"></label>
+      <label>Nomor WhatsApp<input type="tel" name="hp" required autocomplete="tel" placeholder="08xxxxxxxxxx"></label>
+      <div class="lb">Rasa
+        <div class="flav">
+          <label><input type="radio" name="rasa" value="Original" data-p="18000"><span>Original</span></label>
+          <label><input type="radio" name="rasa" value="Gula Aren" data-p="20000" checked><span>Gula Aren</span></label>
+          <label><input type="radio" name="rasa" value="Susu" data-p="22000"><span>Susu</span></label>
+        </div>
+      </div>
+      <div class="lb">Jumlah botol
+        <div class="qty"><button type="button" id="min" aria-label="Kurangi">−</button><output id="q">3</output><button type="button" id="plus" aria-label="Tambah">+</button></div>
+      </div>
+      <div class="total"><div><span>Total</span><small id="hemat"></small></div><strong id="tot">Rp0</strong></div>
+      <button class="btn" type="submit">Lanjut ke WhatsApp</button>
+      <p class="note">Data hanya dipakai untuk memproses pesanan.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 Kopi Siak, Pekanbaru. Halaman contoh untuk praktik Digital Marketing.</div></footer>
+
+<div class="sticky"><a class="btn" href="#pesan" data-track="klik_cta_sticky">Pesan sekarang</a></div>
+<div id="toast" role="status"></div>
+
+<script>
+const $=s=>document.querySelector(s), rp=n=>'Rp'+n.toLocaleString('id-ID');
+// Tracking event (aktif setelah GA4 dipasang)
+function track(n,p){ if(window.gtag) gtag('event',n,p||{}); else console.log('event:',n,p||''); }
+document.querySelectorAll('[data-track]').forEach(e=>e.addEventListener('click',()=>track(e.dataset.track)));
+
+// Progress scroll
+addEventListener('scroll',()=>{const h=document.documentElement;$('#bar').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%'},{passive:true});
+
+// Countdown promo: berakhir Minggu 23:59 terdekat
+function endPromo(){const d=new Date();d.setDate(d.getDate()+((7-d.getDay())%7));d.setHours(23,59,59,0);return d}
+const end=endPromo();
+(function tick(){let s=Math.max(0,Math.floor((end-new Date())/1000));
+  const d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60);
+  $('#cd').textContent=`${d} hari ${h} jam ${m} menit`;setTimeout(tick,30000)})();
+
+// Hitung angka statistik saat terlihat
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;io.unobserve(e.target);
+  const el=e.target,to=+el.dataset.n,dec=+el.dataset.d||0,t0=performance.now();
+  (function f(t){const k=Math.min(1,(t-t0)/1200);el.textContent=(to*k).toFixed(dec)+(el.dataset.s||'');if(k<1)requestAnimationFrame(f)})(t0)}),{threshold:.6});
+document.querySelectorAll('[data-n]').forEach(e=>io.observe(e));
+
+// Kalkulator pesanan: diskon 10% (≥3 botol), 15% (≥6 botol)
+let qty=3;
+function hitung(){
+  const p=+document.querySelector('input[name=rasa]:checked').dataset.p;
+  const disc=qty>=6?.15:qty>=3?.10:0, sub=p*qty, tot=Math.round(sub*(1-disc));
+  $('#q').textContent=qty;$('#tot').textContent=rp(tot);
+  $('#hemat').textContent=disc?`Hemat ${rp(sub-tot)} (diskon ${disc*100}%)`:'Tambah 3 botol untuk diskon 10%';
+  return {tot,disc};
+}
+$('#plus').onclick=()=>{qty=Math.min(24,qty+1);hitung()};
+$('#min').onclick=()=>{qty=Math.max(1,qty-1);hitung()};
+document.querySelectorAll('input[name=rasa]').forEach(r=>r.addEventListener('change',hitung));
+hitung();
+
+// Baca UTM dari URL, lalu kirim pesanan ke WhatsApp (konversi)
+const sumber=new URLSearchParams(location.search).get('utm_source')||'langsung';
+const NOMOR_WA='6281234567890'; // ganti: format 62..., tanpa + atau 0 di depan
+$('#f').addEventListener('submit',e=>{
+  e.preventDefault();
+  const f=new FormData(e.target),{tot}=hitung();
+  const msg=`Halo Kopi Siak, saya ${f.get('nama')} ingin pesan ${qty} botol rasa ${f.get('rasa')} (total ${rp(tot)}). WA: ${f.get('hp')}. (sumber: ${sumber})`;
+  track('kirim_pesanan',{rasa:f.get('rasa'),jumlah:qty,nilai:tot,sumber});
+  const t=$('#toast');t.textContent='Membuka WhatsApp...';t.classList.add('on');setTimeout(()=>t.classList.remove('on'),2500);
+  window.open(`https://wa.me/${NOMOR_WA}?text=${encodeURIComponent(msg)}`,'_blank','noopener');
+});
+
+// Promo sebagai penghitung hari ke depan juga muncul di console untuk bahan diskusi A/B test
+</script>
+</body>
+</html>
